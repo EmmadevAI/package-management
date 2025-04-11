@@ -51,8 +51,9 @@ sudo yum install fontconfig java-17-openjdk -y
 ```sh
 sudo wget  https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-25.3.0.104237.zip
 sudo unzip sonarqube-25.3.0.104237.zip
-sudo mv sonarqube-25.3.0.104237.zip sonarqube
 sudo rm -rf *zip
+sudo mv sonarqube-25.3.0.104237 sonarqube
+
 ```
 
 ## 5. Grant file permissions for sonar user to start and manage sonarQube
